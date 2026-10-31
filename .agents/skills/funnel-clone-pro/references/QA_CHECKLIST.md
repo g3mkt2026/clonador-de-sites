@@ -1,0 +1,23 @@
+# QA and delivery checklist
+
+- [ ] Ownership and environment authorization confirmed
+- [ ] All accessible quiz options explored or coverage limits documented
+- [ ] Back, forward, refresh, conditional branches, errors and exit-intent tested
+- [ ] Checkout price, currency, offers and shipping observed or flagged unverified
+- [ ] No live purchases, unauthorized marketing sends or fake identities presented as real customers
+- [ ] Original and rebuilt screenshots compared at matching states and viewports
+- [ ] Exact authorized copy, typography, colors, imagery, button actions and animations verified
+- [ ] Mobile, tablet and desktop checked
+- [ ] Analytics IDs are user-owned; consent gating, deduplication and events verified
+- [ ] No PII leaks to analytics; purchase events verified from provider confirmation
+- [ ] A/B cohort stickiness and variant reporting checked
+- [ ] SEO metadata, staging noindex and measured performance checked
+- [ ] Editable config, backups and restore procedure tested
+- [ ] Lead validation, anti-spam, consent, retention and failure paths tested
+- [ ] VSL captions, autoplay restrictions and timed CTAs tested
+- [ ] Offer pricing validated by server/provider
+- [ ] Exported HTML works where backend-free; backend dependencies documented
+- [ ] Preview link actually opened or local preview instructions provided
+- [ ] Deployment approved before production actions
+- [ ] Monitoring only marked active if live checks and alert delivery confirmed
+- [ ] Report lists verified, failed, blocked and untested items
