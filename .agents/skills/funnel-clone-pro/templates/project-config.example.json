@@ -1,0 +1,14 @@
+{
+  "projectName": "my-funnel",
+  "sourceUrl": "https://example.com/my-owned-funnel",
+  "mode": "automatic-or-step-by-step",
+  "locale": "original",
+  "previewOnly": true,
+  "links": {"whatsapp": "", "checkoutSandbox": "", "checkoutProduction": ""},
+  "analytics": {"consentRequired": true, "metaPixelId": "", "ga4MeasurementId": "", "tiktokPixelId": ""},
+  "experiments": {"enabled": false, "variants": [{"id":"control","weight":100}]},
+  "leadCapture": {"provider": "not-configured", "endpoint": "", "consentText": ""},
+  "offers": {"currency": "BRL", "items": [], "coupons": []},
+  "monitoring": {"enabled": false, "provider": "not-configured", "alertDestination": ""},
+  "deployment": {"provider": "not-configured", "productionApproved": false}
+}
